@@ -9,8 +9,8 @@
 #include "base/buffer.h"
 
 TEST(test_load, load_model_config) {
-  std::string model_path = "./tmp/test.bin";
-  int32_t fd = open(model_path.data(), O_RDONLY);
+  std::string model_path = "/home/wgreymon/kuiper/KuiperLLama/tmp/test.bin";
+  int32_t fd = open(model_path.data(), O_RDONLY);        // string.data() 返回const char *
   ASSERT_NE(fd, -1);
 
   FILE* file = fopen(model_path.data(), "rb");
@@ -24,7 +24,7 @@ TEST(test_load, load_model_config) {
 }
 
 TEST(test_load, load_model_weight) {
-  std::string model_path = "./tmp/test.bin";
+  std::string model_path = "/home/wgreymon/kuiper/KuiperLLama/tmp/test.bin";
   int32_t fd = open(model_path.data(), O_RDONLY);
   ASSERT_NE(fd, -1);
 
@@ -47,7 +47,7 @@ TEST(test_load, load_model_weight) {
 }
 
 TEST(test_load, create_matmul) {
-  std::string model_path = "./tmp/test.bin";
+  std::string model_path = "/home/wgreymon/kuiper/KuiperLLama/tmp/test.bin";
   int32_t fd = open(model_path.data(), O_RDONLY);
   ASSERT_NE(fd, -1);
 

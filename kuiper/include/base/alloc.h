@@ -3,6 +3,7 @@
 #include <map>
 #include <memory>
 #include "base.h"
+
 namespace base {
 enum class MemcpyKind {
   kMemcpyCPU2CPU = 0,
