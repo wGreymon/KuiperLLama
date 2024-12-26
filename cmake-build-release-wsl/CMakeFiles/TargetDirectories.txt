@@ -1,9 +1,0 @@
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/CMakeFiles/llama.dir
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/CMakeFiles/edit_cache.dir
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/CMakeFiles/rebuild_cache.dir
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/test/CMakeFiles/test_llm.dir
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/test/CMakeFiles/edit_cache.dir
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/test/CMakeFiles/rebuild_cache.dir
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/demo/CMakeFiles/llama_infer.dir
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/demo/CMakeFiles/edit_cache.dir
-/home/wgreymon/kuiper/KuiperLLama/cmake-build-release-wsl/demo/CMakeFiles/rebuild_cache.dir
