@@ -2,6 +2,7 @@
 #define KUIPER_INCLUDE_BASE_BUFFER_H_
 #include <memory>
 #include "base/alloc.h"
+
 namespace base {
 class Buffer : public NoCopyable, std::enable_shared_from_this<Buffer> {
  private:
